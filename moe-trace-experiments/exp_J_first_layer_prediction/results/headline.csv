@@ -1,0 +1,2 @@
+model,firstlayer_identity_cosine,firstlayer_identity_hotlink,history_mean_cosine,sim_ecmp,sim_firstlayer_plan,sim_history_plan,sim_oracle
+flame-moe-290m,0.9983027610854508,0.23061224489795917,0.9998321381936951,2.5883449981876927,1.5606666214512095,1.281279705666299,1.2939178426009346

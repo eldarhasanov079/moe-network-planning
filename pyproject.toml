@@ -1,0 +1,35 @@
+[project]
+name = "moe-network-planning"
+version = "0.1.0"
+description = "MoE network planning: trace analysis, MoE trace synthesis, and PLANE"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "puppeteer",
+    "numpy",
+    "pandas",
+    "pyarrow",
+    "matplotlib",
+    "huggingface-hub",
+    "datasets",
+    "tqdm",
+    "pyyaml>=6.0",
+    "protobuf>=6.31.1",
+    "plane",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+]
+
+[tool.uv.sources]
+puppeteer = { path = "Puppeteer", editable = true }
+plane = { path = "plane", editable = true }
+
+[project.scripts]
+plane = "moe_feeder.cli:main"
+
+[tool.pytest.ini_options]
+testpaths = ["plane/tests"]
+pythonpath = ["plane", "Puppeteer/src"]

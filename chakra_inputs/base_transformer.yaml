@@ -1,0 +1,14 @@
+model:
+  name: "transformer"
+  num_layers: 12
+  sequence_len: 2048
+  vocab_size: 51200
+  hidden_size: 20480
+  batch_size: 32
+  num_microbatches: 8
+  bytes_per_val: 2
+  scale: 0.01
+parallelism:
+  dp_size: 4
+  pp_size: 4
+  tp_size: 1

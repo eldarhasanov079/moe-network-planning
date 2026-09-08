@@ -1,0 +1,2 @@
+model,final_checkpoint,devices,relief_target_peak,showcase_layer,init_peak,margin_frac_moved_pct,margin_scoreloss,random_scoreloss,dropping_scoreloss,dropping_vs_margin_scoreloss_x,mean_init_peak
+flame-moe-290m,5473,8,1.05,layer_02,1.463872,7.5,17.325836181640625,209.52847290039062,364.9483947753906,21.06382577725797,1.26206

@@ -1,0 +1,2 @@
+model,devices,rails,ecmp_normalized_time,oracle_normalized_time,static_p95_normalized_time,static_p95_speedup_vs_ecmp,static_p95_gap_to_oracle_pct
+flame-moe-290m,8,4,2.583667213727945,1.31489878951349,1.4984925928204729,1.7241775008476679,13.962580600968701

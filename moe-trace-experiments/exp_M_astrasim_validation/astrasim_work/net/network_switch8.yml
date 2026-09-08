@@ -1,0 +1,4 @@
+topology: [ Switch ]
+npus_count: [ 8 ]
+bandwidth: [ 100.0 ]
+latency: [ 500.0 ]

@@ -1,0 +1,2 @@
+model,showcase_layer,initial_peak_ratio,floor_peak_ratio,excess_removed_at_floor_pct,total_frac_moved_pct,total_avg_score_loss_per_token,cheap_budget_per_token,cheap_achieved_peak_ratio,cheap_excess_removed_pct,cheap_frac_moved_pct
+flame-moe-290m,layer_09,1.836544,1.279104,66.63606457042307,3.5144,0.0009552958068847656,0.005,1.279104,66.63606457042307,3.5144

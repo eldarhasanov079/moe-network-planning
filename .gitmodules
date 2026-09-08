@@ -1,0 +1,24 @@
+[submodule "MoE-MLSynth"]
+	path = MoE-MLSynth
+	url = https://github.com/eldarhasanov079/MLSynth.git
+[submodule "astra-sim"]
+	path = astra-sim
+	url = https://github.com/astra-sim/astra-sim.git
+[submodule "FLAME-MoE"]
+	path = FLAME-MoE
+	url = https://github.com/cmu-flame/FLAME-MoE.git
+[submodule "OLMoE"]
+	path = OLMoE
+	url = https://github.com/allenai/OLMoE.git
+[submodule "OpenMoE"]
+	path = OpenMoE
+	url = https://github.com/XueFuzhao/OpenMoE.git
+[submodule "HolisticTraceAnalysis"]
+	path = HolisticTraceAnalysis
+	url = https://github.com/facebookresearch/HolisticTraceAnalysis.git
+[submodule "param"]
+	path = param
+	url = https://github.com/facebookresearch/param.git
+[submodule "astra-sim-expanded"]
+	path = astra-sim-expanded
+	url = https://github.com/NetMLSim/astra-sim-expanded.git

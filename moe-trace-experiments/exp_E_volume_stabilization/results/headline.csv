@@ -1,0 +1,2 @@
+model,metric,n_tokens_per_layer,first_ckpt,first_ckpt_cosine_vs_final,first_ckpt_norm_l1_vs_final,final_minus1_cosine_vs_final,final_minus1_norm_l1_vs_final
+flame-moe-290m,per-expert traffic volume distribution,250000,540,0.9956232764590386,0.06928483333333334,0.9993815251678925,0.02162066666666667

@@ -1,0 +1,2 @@
+model,devices,rails,ecmp_normalized_time,oracle_normalized_time,static_p95_normalized_time,static_p95_speedup_vs_ecmp,static_p95_gap_to_oracle_pct
+olmoe-1b-7b,8,4,2.3550857043055347,1.2415002640160142,1.2582811178537048,1.8716689544882377,1.3516593048001244

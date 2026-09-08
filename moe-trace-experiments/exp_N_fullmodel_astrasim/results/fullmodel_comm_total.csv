@@ -1,0 +1,2 @@
+checkpoint,moe_layers,collectives,topology,bytes_per_slot,total_moe_forward_comm_cycles,mean_layer_comm_cycles
+5473,8,16,Switch,2048,149677088,18709636.0

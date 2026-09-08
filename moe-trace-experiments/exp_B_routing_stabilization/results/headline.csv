@@ -1,0 +1,2 @@
+model,final_checkpoint,first_checkpoint,first_ckpt_pct_through_training,first_ckpt_top1_match_pct,first_ckpt_top6_overlap_pct,n_tokens_per_layer
+flame-moe-290m,5473,540,9.866617942627444,47.21195,58.14779166666667,250000

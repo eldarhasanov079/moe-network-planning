@@ -1,0 +1,2 @@
+model,final_checkpoint,n_layers,n_tokens_per_layer,pct_below_0.01,pct_below_0.03,pct_below_0.05,pct_below_0.10,mean_margin,median_margin,p95_deflection_cost
+flame-moe-290m,5473,8,500000,24.893775,47.82045,61.998825000000004,81.716325,0.05905396191596985,0.0325927734375,0.2044677734375

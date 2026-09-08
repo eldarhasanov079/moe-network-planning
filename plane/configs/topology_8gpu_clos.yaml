@@ -1,0 +1,26 @@
+# 8-GPU Clos matching the experiment deployment (NET_DEVICES = 8).
+# 2 pods x 2 leaves x 1 host x 2 GPUs = 8.
+
+topology:
+  type: clos
+  pods: 2
+  leaves_per_pod: 2
+  hosts_per_leaf: 1
+  gpus_per_host: 2
+  spines_per_pod: 2
+  super_spines: 2
+  link_bw:
+    gpu_leaf: 100Gbps
+    leaf_spine: 100Gbps
+    spine_superspine: 100Gbps
+  scale_up_bw: 900Gbps
+
+compute:
+  flops: 500e12
+
+planner:
+  collective: alltoall-direct
+  allocator: tte-priority
+  tte_mode: float
+  min_rate: 0
+  refine: 0

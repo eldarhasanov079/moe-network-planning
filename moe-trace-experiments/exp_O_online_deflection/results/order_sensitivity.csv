@@ -1,0 +1,5 @@
+seed,order,global_peak,local_peak
+0,shuffle,1.000064,1.000256
+1,shuffle,1.000032,1.000096
+2,shuffle,1.000032,1.00016
+-1,trace,1.000032,1.000096

@@ -1,0 +1,2 @@
+model,n_tokens,earliest_checkpoint_steps,earliest_top1_match_pct,earliest_top8_overlap_pct,mean_gini_final,mean_top8_share_final_pct,even_share_pct
+OLMoE-1B-7B,205000,5000,29.515548780487805,51.40314024390244,0.1885998820979421,20.34062881097561,1.5625

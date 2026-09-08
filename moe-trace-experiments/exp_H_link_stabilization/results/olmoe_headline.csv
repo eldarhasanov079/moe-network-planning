@@ -1,0 +1,2 @@
+model,devices,src_ranks,placement,sharding,first_ckpt,first_ckpt_matrix_cosine_vs_final,first_ckpt_rank1_residual,first_ckpt_fabric_hot_overlap_vs_final,final_fabric_max_over_mean,P95_link_overflow_ratio,P95_link_waste_ratio,worstcase_link_waste_ratio
+olmoe-1b-7b,8,8,contiguous,contiguous,5000,0.9924188110383029,0.03847281997022648,0.5267857142857143,1.2488569707816515,0.008473567833515237,0.05005117884645442,0.053850539755595894

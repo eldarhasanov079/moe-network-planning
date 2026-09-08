@@ -1,0 +1,2 @@
+model,final_checkpoint,num_experts,even_share_pct,max_over_mean_worst_layer,max_over_mean_worst_value,mean_top8_share_pct,mean_gini
+flame-moe-290m,5473,64,1.5625,layer_09,1.177472,13.3972125,0.023082895833333353

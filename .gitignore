@@ -1,0 +1,43 @@
+# Not distributed: unpublished group planner
+/Puppeteer/
+
+# Local notes, thesis sources and scratch
+/_local/
+/Final_Report/
+/tmp/
+/log/
+/output/
+
+# Environments
+.venv/
+**/.venv/
+/chakra_env/
+.python-version.local
+.env
+.env.*
+
+# Editor / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Generated data (rebuilt from traces and configs)
+/plane/output/
+/moe-trace-experiments/data_cache/
+/moe-trace-experiments/**/astrasim_work/et/
+/moe-trace-experiments/**/astrasim_work/et_*/
+/moe-trace-experiments/**/astrasim_work/npy/
+/chakra_outputs/
+/chakra_inputs/analysis/
+*.et

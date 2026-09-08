@@ -1,0 +1,2 @@
+model,devices,src_ranks,placement,sharding,first_ckpt,first_ckpt_matrix_cosine_vs_final,first_ckpt_rank1_residual,first_ckpt_fabric_hot_overlap_vs_final,final_fabric_max_over_mean,P95_link_overflow_ratio,P95_link_waste_ratio,worstcase_link_waste_ratio
+flame-moe-290m,8,8,contiguous,contiguous,540,0.9991270554676139,0.031019733352082357,0.5803571428571429,1.0897655889485176,0.0017490881431251372,0.02224570075321864,0.024502350824628573
